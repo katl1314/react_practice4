@@ -2,7 +2,7 @@ var Article = (props) => {
     return (
         <article className="article">
             <h2>{props.title}</h2>
-            <p>{props.article}</p>
+            <p>{props.description}</p>
         </article>
     );
 };
