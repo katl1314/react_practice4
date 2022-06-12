@@ -2,6 +2,7 @@ import "./App.css";
 import React, { useState, useEffect } from "react";
 import Article from "./components/Article";
 import Nav from "./components/Nav";
+import NowLoading from "./components/NowLoading";
 import getJsonList from "./js/ajax";
 
 function App() {
