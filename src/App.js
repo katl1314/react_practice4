@@ -10,7 +10,7 @@ function App() {
     const [article, setArticle] = useState("");
     const [list, setList] = useState([]);
 
-    // render이후 단 한번 호출함. (componentDidMount)12
+    // render이후 단 한번 호출함. (componentDidMount)123
     useEffect(() => {
         getJsonList(setList);
     }, []);
